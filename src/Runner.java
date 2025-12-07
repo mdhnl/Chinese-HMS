@@ -8,7 +8,7 @@ public class Runner {
         WelcomeFrame.setVisible(true);
         WelcomeFrame.setLocationRelativeTo(null);
         
-        
+       
        
     }
     

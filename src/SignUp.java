@@ -32,13 +32,13 @@ public class SignUp extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        utextfield = new javax.swing.JTextField();
+        uname = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
-        etxtfield = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
+        email = new javax.swing.JTextField();
+        SignUpBtn = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
-        jPasswordField1 = new javax.swing.JPasswordField();
+        password = new javax.swing.JPasswordField();
         jLabel7 = new javax.swing.JLabel();
 
         jLabel8.setText("jLabel8");
@@ -100,8 +100,8 @@ public class SignUp extends javax.swing.JFrame {
         jLabel4.setText("USERNAME:");
         jPanel1.add(jLabel4);
         jLabel4.setBounds(450, 120, 90, 17);
-        jPanel1.add(utextfield);
-        utextfield.setBounds(450, 150, 320, 30);
+        jPanel1.add(uname);
+        uname.setBounds(450, 150, 320, 30);
 
         jLabel5.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jLabel5.setText("PASSWORD:");
@@ -112,20 +112,20 @@ public class SignUp extends javax.swing.JFrame {
         jLabel6.setText("EMAIL:");
         jPanel1.add(jLabel6);
         jLabel6.setBounds(450, 50, 80, 17);
-        jPanel1.add(etxtfield);
-        etxtfield.setBounds(450, 80, 320, 30);
+        jPanel1.add(email);
+        email.setBounds(450, 80, 320, 30);
 
-        jButton1.setBackground(new java.awt.Color(255, 0, 51));
-        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("Sign Up");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        SignUpBtn.setBackground(new java.awt.Color(255, 0, 51));
+        SignUpBtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        SignUpBtn.setForeground(new java.awt.Color(255, 255, 255));
+        SignUpBtn.setText("Sign Up");
+        SignUpBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                SignUpBtnActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1);
-        jButton1.setBounds(570, 280, 80, 30);
+        jPanel1.add(SignUpBtn);
+        SignUpBtn.setBounds(570, 280, 80, 30);
 
         jButton2.setBackground(new java.awt.Color(0, 0, 102));
         jButton2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -139,13 +139,13 @@ public class SignUp extends javax.swing.JFrame {
         jPanel1.add(jButton2);
         jButton2.setBounds(700, 380, 72, 23);
 
-        jPasswordField1.addActionListener(new java.awt.event.ActionListener() {
+        password.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jPasswordField1ActionPerformed(evt);
+                passwordActionPerformed(evt);
             }
         });
-        jPanel1.add(jPasswordField1);
-        jPasswordField1.setBounds(450, 220, 320, 30);
+        jPanel1.add(password);
+        password.setBounds(450, 220, 320, 30);
 
         jLabel7.setText("If you already have an account, would you like to ");
         jPanel1.add(jLabel7);
@@ -174,9 +174,9 @@ public class SignUp extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+    private void SignUpBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SignUpBtnActionPerformed
+        
+    }//GEN-LAST:event_SignUpBtnActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         Login LoginFrame = new Login();
@@ -186,9 +186,9 @@ public class SignUp extends javax.swing.JFrame {
         this.dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
 
-    private void jPasswordField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPasswordField1ActionPerformed
+    private void passwordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_passwordActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jPasswordField1ActionPerformed
+    }//GEN-LAST:event_passwordActionPerformed
 
     /**
      * @param args the command line arguments
@@ -226,8 +226,8 @@ public class SignUp extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextField etxtfield;
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton SignUpBtn;
+    private javax.swing.JTextField email;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
@@ -239,7 +239,7 @@ public class SignUp extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JPasswordField jPasswordField1;
-    private javax.swing.JTextField utextfield;
+    private javax.swing.JPasswordField password;
+    private javax.swing.JTextField uname;
     // End of variables declaration//GEN-END:variables
 }
