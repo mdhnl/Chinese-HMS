@@ -147,7 +147,7 @@ public class LoginPage extends javax.swing.JFrame {
         jPanel1.add(backBtn);
         backBtn.setBounds(10, 10, 50, 30);
 
-        loginRoleCombo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select", "Admin", "Doctor", "Receptionist" }));
+        loginRoleCombo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select", "Admin", "Doctor" }));
         loginRoleCombo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 loginRoleComboActionPerformed(evt);
