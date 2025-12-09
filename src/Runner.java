@@ -1,5 +1,5 @@
 
-import Views.WelcomePage;
+import view.WelcomePage;
 
 
 public class Runner {
