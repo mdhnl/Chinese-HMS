@@ -1,15 +1,11 @@
 
-public class Runner {
+import Views.WelcomePage;
 
-    
+
+public class Runner {
     public static void main(String[] args) {
-        //welcomedisp
-        Welcome WelcomeFrame = new Welcome();
-        WelcomeFrame.setVisible(true);
-        WelcomeFrame.setLocationRelativeTo(null);
-        
-       
-       
+        // This directs to the welcome screen.
+        WelcomePage welcome = new WelcomePage();
+        welcome.setVisible(true);
     }
-    
 }

@@ -1,3 +1,10 @@
+package Views;
+
+
+import Views.OurDoctors;
+import Views.PatientReg;
+import Views.WelcomePage;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -367,7 +374,7 @@ public class HealthService extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jLabel10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel10MouseClicked
-        Welcome WelcomeFrame = new Welcome();
+        WelcomePage WelcomeFrame = new WelcomePage();
         WelcomeFrame.setVisible(true);
         WelcomeFrame.pack();
         WelcomeFrame.setLocationRelativeTo(null);
